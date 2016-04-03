@@ -1,0 +1,82 @@
+/*
+ Theme Name:   Momentum Child
+ Theme URI:    http://example.com/momentum-child/
+ Description:  Momentum Child Theme
+ Author:       Corey Moore
+ Author URI:   http://example.com
+ Template:     momentum
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  momentum-child
+*/
+
+@import url("../momentum/style.css");
+
+
+/* ABOUT STYLES */
+
+.prof-left-col {
+    padding: 20px 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.prof-row {
+	    width: 100%;
+	    margin: auto;
+	    overflow: auto;
+	    clear: both;
+	    position: relative;
+	}
+
+	.prof-right-col {
+	    float: right;
+	    width: 60%;
+	}
+
+	.prof-left-col {
+	    float: left;
+	    width: 35%;
+	    position: absolute;
+  		top: 45%;
+	    transform: translateY(-50%);
+}
+}
+
+
+
+
+
+/* WORKS STYLES*/
+.project-type-image {
+    display: none;
+}
+
+.button-block a {
+    display: inline-block;
+    font-family: 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    line-height: 25px;
+    padding: 12px 25px;
+    color: #ffffff;
+    background: #111111;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+/* FONT STYLES */
+
+
+@media only screen and (max-width: 768px) {
+	h1, h2, h3, h4, h5, h6, p{
+	text-align:center;
+}
+}
+/* MISC STYLES*/
+
+.responsive-img{
+	border-radius: 100%;
+	position: relative;
+}
